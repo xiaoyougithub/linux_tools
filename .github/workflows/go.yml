@@ -34,7 +34,7 @@ jobs:
       - name: Build main
         run: go build .
       - name: Deploy main
-        uses: appleboy/scp-action@main
+        uses: appleboy/scp-action@master
         with:
           host: 119.23.45.126
           username: xiaoyou
